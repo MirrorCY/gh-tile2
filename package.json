@@ -9,14 +9,27 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "github",
+    "tile",
+    "瓷砖",
+    "查",
+    "gh"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "koishi": {
+    "service": {
+      "required": [
+        "database"
+      ]
+    }
   }
 }
